@@ -1,0 +1,32 @@
+// Information about the dotnet environment
+dotnet --info
+
+// List all available dotnet commands
+dotnet -h
+
+// View contextual Information
+dotnet new -h
+
+// Create a solution file
+dotnet new sln
+
+// Create a new application (webapi)
+dotnet new webapi -o API_NAME 
+
+// Solution for running problem
+dotnet nuget add source --name nuget.org https://api.nuget.org/v3/index.json
+
+// Run application
+dotnet run
+
+// Run and watch application
+dotnet watch run
+
+// Create migrations
+dotnet ef migrations add InitialCreate -o Data/Migrations
+
+// Update Databese
+dotnet ef database update
+
+// Create .gitignore file
+dotnet new gitignore
