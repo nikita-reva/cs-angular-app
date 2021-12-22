@@ -1,0 +1,19 @@
+// Start development server
+ng serve
+
+// Generate command help
+ng g -h
+
+// Generate a component
+ng g component component_name
+ng g c component_name
+
+// Generate a component without test files
+ng g c component_name --skip-tests
+
+// Generate a service
+ng g service service_name
+ng g s service_name
+
+// Generate a service without test files
+ng g s service_name --skip-tests
